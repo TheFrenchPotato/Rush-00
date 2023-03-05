@@ -14,16 +14,16 @@ void	ft_putchar(char c);
 
 void	print_deb(int x)
 {
-	int	count;
+	int	i;
 
-	count = 1;
-	while (count <= x)
+	i = 1;
+	while (i <= x)
 	{
-		if (count == 1)
+		if (i == 1)
 		{
 			ft_putchar('/');
 		}
-		else if (count == x)
+		else if (i == x)
 		{
 			ft_putchar(92);
 		}
@@ -31,18 +31,18 @@ void	print_deb(int x)
 		{
 			ft_putchar('*');
 		}
-		count++;
+		i++;
 	}
 }
 
 void	print_ver(int x)
 {
-	int	count;
+	int	i;
 
-	count = 1;
-	while (count <= x)
+	i = 1;
+	while (i <= x)
 	{
-		if ((count == 1) || (count == x))
+		if ((i == 1) || (i == x))
 		{
 			ft_putchar('*');
 		}
@@ -50,22 +50,22 @@ void	print_ver(int x)
 		{
 			ft_putchar(' ');
 		}
-		count++;
+		i++;
 	}
 }
 
 void	print_fin(int x)
 {
-	int	count;
+	int	i;
 
-	count = 1;
-	while (count <= x)
+	i = 1;
+	while (i <= x)
 	{
-		if (count == 1)
+		if (i == 1)
 		{
 			ft_putchar(92);
 		}
-		else if (count == x)
+		else if (i == x)
 		{
 			ft_putchar('/');
 		}
@@ -73,7 +73,7 @@ void	print_fin(int x)
 		{
 			ft_putchar('*');
 		}
-		count++;
+		i++;
 	}
 }
 
