@@ -12,7 +12,7 @@
 
 void	ft_putchar(char c);
 
-void	print_long(int n)
+void	print_deb(int n)
 {
 	int	count;
 
@@ -86,7 +86,7 @@ void	rush(int x, int y)
 	{
 		if (i == 1)
 		{
-			print_long(x);
+			print_deb(x);
 		}
 		else if (i == y)
 		{
