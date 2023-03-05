@@ -12,18 +12,18 @@
 
 void	ft_putchar(char c);
 
-void	print_deb(int n)
+void	print_deb(int x)
 {
 	int	count;
 
 	count = 1;
-	while (count <= n)
+	while (count <= x)
 	{
 		if (count == 1)
 		{
 			ft_putchar('/');
 		}
-		else if (count == n)
+		else if (count == x)
 		{
 			ft_putchar(92);
 		}
@@ -35,14 +35,14 @@ void	print_deb(int n)
 	}
 }
 
-void	print_ver(int n)
+void	print_ver(int x)
 {
 	int	count;
 
 	count = 1;
-	while (count <= n)
+	while (count <= x)
 	{
-		if ((count == 1) || (count == n))
+		if ((count == 1) || (count == x))
 		{
 			ft_putchar('*');
 		}
@@ -54,18 +54,18 @@ void	print_ver(int n)
 	}
 }
 
-void	print_fin(int n)
+void	print_fin(int x)
 {
 	int	count;
 
 	count = 1;
-	while (count <= n)
+	while (count <= x)
 	{
 		if (count == 1)
 		{
 			ft_putchar(92);
 		}
-		else if (count == n)
+		else if (count == x)
 		{
 			ft_putchar('/');
 		}
